@@ -1,6 +1,8 @@
 @import "howItWorks.css";
 @import "experience.css";
 @import "owner.css";
+@import "register.css";
+@import "header.css";
 * {
   margin: 0;
   padding: 0;

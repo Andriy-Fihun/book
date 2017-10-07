@@ -11,27 +11,29 @@
 
 .form-row input {
     float: right;
-    height: 19px;
-    line-height: 19px;
+    height: 20px;
+    line-height: 20px;
     margin: 0px;
     padding: 0px 5px;
     width: 200px;
     border: 1px solid #ABADB3;
+    border-radius: 5px;
 }
 
 .reg-form {
-    width: 300px;
+    width: 320px;
     margin: 0 auto;
 }
 
 .form-row textarea {
     float: right;
-    height: 50px;
-    line-height: 16px;
-    font-size: 12px;
+    height: 60px;
+    line-height: 20px;
     padding: 0px 5px;
     width: 200px;
     border: 1px solid #ABADB3;
+    border-radius: 5px;
+    margin: 0px;
 }
 
 .form-row input[type=submit] {
@@ -41,12 +43,16 @@
     line-height: 10px;
     background: #337AB7;
     color: white;
+    margin-bottom: 10px;
 }
 
 .form-row input[type=submit]:hover {
     background: #286090;
+    margin-bottom: 10px;
 }
 
+
+/*
 .my-flex-container {
     display: flex;
     flex-direction: row;
@@ -57,30 +63,5 @@
 .my-flex-block {
     padding: 5px;
     color: #000000;
-}
-
-
-/*
-a.button {
-    color: #fff;
-    text-decoration: none;
-    user-select: none;
-    background: rgb(212, 75, 56);
-    padding: 10px;
-    outline: none;
-}
-
-
-
-
-a.button:hover {
-    background: rgb(232, 95, 76);
-}
-
-
-
-
-a.button:active {
-    background: rgb(152, 15, 0);
 }
 */

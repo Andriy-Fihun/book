@@ -41,6 +41,10 @@
   max-width: 110px;
 }
 
+.addBook-btn {
+  max-width: 210px;
+}
+
 .search-books {
   float: right;
 }

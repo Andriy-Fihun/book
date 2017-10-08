@@ -18,10 +18,10 @@
       </div>
       <nav>
         <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
-        <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign In</button>
+        <button class="sign-in" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign In</button>
         <div id="id01" class="modal">
           <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
-          <form class="modal-content animate" action="/user.html">
+          <form class="modal-content animate" action="user.html">
             <div class="reg-container">
 
               <label><b>Name</b></label>
@@ -48,7 +48,7 @@
         </div>
         <div id="id02" class="modal">
           <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">×</span>
-          <form class="modal-content animate" action="/user.html">
+          <form class="modal-content animate" action="user.html">
             <div class="reg-container">
               <label><b>Email</b></label>
               <input type="text" placeholder="Enter Email" name="email" required>
@@ -56,7 +56,7 @@
               <input type="password" placeholder="Enter Password" name="psw" required>
               <div class="clearfix">
                 <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
-                <button type="submit" class="signupbtn">Sign Up</button>
+                <button type="submit" class="signupbtn">Sign In</button>
               </div>
             </div>
           </form>
@@ -65,10 +65,20 @@
     </div>
   </header>
   <main>
-
+    <section class="first-screen">
+      <div class="first-screen black-filter">
+        <section class="first-screen-text">
+          <h2>Exchanging books without borders</h2>
+        </section>
+        <section class="first-screen-buttons">
+          <button class="first-button sign-in" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Add book</button>
+          <button class="first-button">Search books</button>
+        </section>
+      </div>
+    </section>
 
     <section class="how-it-works">
-      <div class="container">
+      <div class="container-our">
         <h2>HOW IT WORKS</h2>
         <div class="items-container">
           <div class="how-it-works-item">
@@ -119,29 +129,49 @@
           </div>
         </div>
       </div>
-
     </section>
     <section class="advantages">
-      <h2>ADVANTAGES</h2>
-      <div class="advantages-item">
-        <img src="" alt="">
-        <p></p>
-      </div>
-      <div class="advantages-item">
-        <img src="" alt="">
-        <p></p>
-      </div>
-      <div class="advantages-item">
-        <img src="" alt="">
-        <p></p>
+      <div class="container-our">
+        <h2 class=".advantages-h2">Advantages</h2>
+        <div class="items-container">
+          <div class="advantages-item">
+            <div class="advantages-image">
+              <img src="images/advantages-img1.png" alt="">
+            </div>
+            <div class="line"><img src="images/line.png" alt=""></div>
+            <h3>Profiles &#38; References</h3>
+            <p>Read what members say about themselves in their profiles. See what other bookcores have said about their experiences with them. </p>
+
+          </div>
+          <div class="advantages-item">
+            <div class="advantages-image">
+              <img src="images/advantages-img2.png" alt="">
+            </div>
+            <div class="line"><img src="images/line.png" alt=""></div>
+
+            <h3>Messaging</h3>
+            <p>Get to know potential borrower through our messaging system. Feel free to ask any qestions.</p>
+          </div>
+          <div class="advantages-item">
+            <div class="advantages-image">
+              <img src="images/advantages-img3.png" alt="">
+            </div>
+            <div class="line"><img src="images/line.png" alt=""></div>
+            <h3>Customer Support</h3>
+            <p>Our customer support is available to all customers. Having an issues? Contact us let`s get it fixed.</p>
+
+          </div>
+        </div>
       </div>
     </section>
   </main>
   <footer>
-    <a href="" class="social"><img src="" alt=""></a>
-    <a href="" class="social"><img src="" alt=""></a>
-    <a href="" class="social"><img src="" alt=""></a>
-    <a href="" class="social"><img src="" alt=""></a>
+    <section class="adventure">
+
+      <h3 class="flex-block">Ready for your next adventure?</h3>
+      <button class="button1" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Join</button>
+
+    </section>
   </footer>
 </body>
 <script>

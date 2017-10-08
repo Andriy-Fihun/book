@@ -12,15 +12,20 @@ input[type=password] {
 /* Set a style for all buttons */
 
 button {
-  background-color: #4CAF50;
+  background-color: #31A389;
+  ;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
   width: 100%;
-  transition-duration: 1s;
+  transition-duration: 0.4s;
   border-radius: 10px;
+}
+
+.sign-in {
+  background-color: #0278be;
 }
 
 button:hover {

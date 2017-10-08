@@ -3,12 +3,15 @@
 @import "owner.css";
 @import "register.css";
 @import "header.css";
+@import "first-screen.css";
+@import 'advantages.css';
+@import "adventure.css";
 * {
   margin: 0;
   padding: 0;
 }
 
-.container {
+.container-our {
   max-width: 1150px;
   margin: 0 auto;
 }

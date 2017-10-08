@@ -1,6 +1,8 @@
 .header {
   width: 100%;
   display: block;
+  background-color: #eceeff;
+  padding-top: 3px;
 }
 
 .header-wrapper {
@@ -9,10 +11,15 @@
   display: inline-flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 nav {
   margin-left: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
 }
 
 .logo-position {
